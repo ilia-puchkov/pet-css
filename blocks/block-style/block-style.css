@@ -1,0 +1,112 @@
+.effect1__box {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.effect1__box span:nth-child(1) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 2px solid #000;
+  border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
+  transition: 0.5s ease-in-out;
+  animation: effect1 6s linear infinite;
+}
+
+.effect1__box:hover span:nth-child(1) {
+  background: rgba(0, 0, 255, 0.8);
+  border: 2px solid #fff;
+}
+
+.effect1__box span:nth-child(2) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 2px solid #000;
+  border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
+  transition: 0.5s ease-in-out;
+  animation: effect1-1 4s linear infinite;
+}
+
+.effect1__box:hover span:nth-child(2) {
+  background: rgba(173, 216, 230, 0.8);
+  border: 2px solid #fff;
+}
+
+.effect1__box span:nth-child(3) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 2px solid #000;
+  border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
+  transition: 0.5s ease-in-out;
+  animation: effect1 10s linear infinite;
+}
+
+.effect1__box:hover span:nth-child(3) {
+  background: rgba(0, 0, 255, 0.8);
+  border: 2px solid #fff;
+}
+
+@keyframes effect1 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes effect1-1 {
+  0% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.effect1__content {
+  position: relative;
+  padding: 40px 60px;
+  color: #000;
+  text-align: center;
+  transition: 0.5s;
+  z-index: 10;
+}
+
+.effect1__link {
+  position: relative;
+  display: inline-block;
+  margin-top: 10px;
+  border: 2px solid #000;
+  border-radius: 73% 27% 44% 56% / 49% 44% 56% 51%;
+  padding: 6px 18px;
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+  
+}
+
+.effect1__content:hover .effect1__link {
+  background: #fff;
+  color: #333;
+}
+
+.effect1__content:hover .effect1__title {
+  color: #fff;
+}
+
+.effect1__content:hover .effect1__text {
+  color: #fff;
+}

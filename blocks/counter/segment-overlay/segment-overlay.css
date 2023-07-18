@@ -1,0 +1,7 @@
+.segment-overlay {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100px;
+  perspective: 400px;
+}

@@ -1,0 +1,40 @@
+/* General CSS */
+@import url(./blocks/body/body.css);
+@import url(./blocks/page/page.css);
+@import url(./blocks/page/__title/page__title.css);
+@import url(./blocks/page/__subtitle/page__subtitle.css);
+
+/* Preloader CSS */
+@import url(./blocks/loaders/loaders.css);
+@import url(./blocks/loader1/loader1.css);
+@import url(./blocks/loader1/__span/loader1__span.css);
+@import url(./blocks/loader2/loader2.css);
+@import url(./blocks/loader3/loader3.css);
+@import url(./blocks/loader4/loader4.css);
+@import url(./blocks/loader5/loader5.css);
+
+/* Effects CSS */
+@import url(./blocks/effects/effects.css);
+@import url(./blocks/flowers/flower.css);
+@import url(./blocks/glitch/glitch.css);
+@import url(./blocks/block-style/block-style.css);
+
+/* Counter CSS */
+@import url(./blocks/counter/countdown/countdown.css);
+@import url(./blocks/counter/flip/flip.css);
+@import url(./blocks/counter/segment-display/segment-display.css);
+@import url(./blocks/counter/segment-display/__bottom/segment-display__bottom.css);
+@import url(./blocks/counter/segment-display/__top/segment-display__top.css);
+@import url(./blocks/counter/segment-overlay/segment-overlay.css);
+@import url(./blocks/counter/segment-overlay/__bottom/segment-overlay__bottom.css);
+@import url(./blocks/counter/segment-overlay/__top/segment-overlay__top.css);
+@import url(./blocks/counter/time-group/time-group.css);
+@import url(./blocks/counter/time-section/time-section.css);
+@import url(./blocks/counter/time-segment/time-segment.css);
+
+/*
+* {
+  box-sizing: border-box;
+}
+*/
+

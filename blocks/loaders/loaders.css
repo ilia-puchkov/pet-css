@@ -1,0 +1,23 @@
+.loaders {
+  margin-bottom: 20px;
+  display: grid;
+  grid-template-columns: 150px 150px 150px 150px;
+  grid-template-rows: 1fr 1fr;
+  justify-content: space-around;
+  align-self: center;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+.loaders__container {
+  width: 150px;
+  height: 170px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.loaders_dark {
+  background-color: #000;
+}

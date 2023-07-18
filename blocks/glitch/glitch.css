@@ -1,0 +1,121 @@
+.glitch {
+  display: flex;
+  flex-direction: column;
+  background-color: #9A0000;
+  width: 350px;
+  height: 550px;
+  align-self: center;
+  border: 2px solid #000;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  animation: glitch-3 2s 10s linear;
+}
+
+.glitch__text {
+  color: #000;
+  text-align: center;
+  font-size: 100px;
+  line-height: 350px;
+  font-weight: 900;
+  margin: 0;
+  z-index: 1;
+  position: relative;
+}
+
+.glitch__span {
+  position: absolute;
+  top: 0;
+  left: 25px;  
+}
+
+.glitch__span-top {
+  z-index: 3;
+  clip-path: polygon(0 0, 100% 0, 100% 45%, 0 45%);
+  transform: translate(-1px, -1px);
+  animation: broken_text .5s linear reverse infinite;
+}
+
+.glitch__span-bottom {
+  z-index: 3;
+  clip-path: polygon(0 47%, 100% 60%, 100% 100%, 0% 85%);
+  transform: translate(2px, 2px);
+  animation: broken_text .5s linear infinite;
+}
+
+@keyframes broken_text {
+  10% {
+    text-shadow: -2px 1px #fff;
+  }
+  25% {
+    text-shadow: 1px 0 #fff;
+  }
+  75% {
+    text-shadow: -2px 0 #fff;
+  }
+  100% {
+    text-shadow: 1px 0 #fff;
+  }
+}
+
+.glitch__image {
+  position: absolute;
+  width: 350px;
+  height: 550px;
+  z-index: 5;
+  animation: glitch-3 4s 5s linear infinite;
+}
+
+.glitch__text::before,
+.glitch__text::after {
+  position: absolute;
+  content: attr(data-text);
+  top: 0;
+  left: 25px;
+  z-index: 2;
+}
+
+.glitch__text::before {
+  animation: glitch-1 5s 5s linear infinite;
+}
+
+.glitch__text::after {
+  animation: glitch-2 5s 5s linear infinite;
+}
+
+@keyframes glitch-1 {
+  1%{
+    text-shadow: 2px 0 #fff;
+    transform: rotateX(10deg) skewX(30deg);
+  }
+  3%{
+
+    transform: rotateX(0deg) skewX(0deg);
+  }
+}
+
+@keyframes glitch-2 {
+  1%{
+    transform: rotateX(10deg) skewX(-30deg);
+  }
+  3%{
+    text-shadow: 1px 0 #fff;
+    transform: rotateX(0deg) skewX(0deg);
+  }
+}
+
+@keyframes glitch-3 {
+  1%{
+    transform: rotateX(20deg) skewX(-40deg);
+  }
+  3%{
+    transform: rotateX(0deg) skewX(0deg);
+  }
+}
+
+.box {
+  position: absolute;
+  background: url(../../images/back__full.JPG);
+  background-attachment: fixed;
+  z-index: 6;
+}

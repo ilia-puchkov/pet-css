@@ -1,0 +1,14 @@
+.effects {
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: space-around;
+  align-self: center;
+}
+
+.effects__container {
+  display: flex;
+  margin-bottom: 30px;
+  justify-content: center;
+}

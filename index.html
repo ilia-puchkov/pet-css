@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>CSS reel</title>
+  </head>
+  <body class="body">
+    <page class="page">
+      <h1 class="page__title">CSS showreel</h1>
+      <h2 class="page__subtitle">Loaders / Аниманиця загрузки </h2>
+      <div class="loaders">
+        <div class="loaders__container loaders_light">
+          <div class="loader1">
+            <span class="loader1__span"></span>
+            <span class="loader1__span"></span>
+          </div>
+        </div>
+        <div class="loaders__container loaders_dark">
+          <div class="loader1">
+            <span class="loader1__span"></span>
+            <span class="loader1__span"></span>
+          </div>
+        </div>
+        <div class="loaders__container loaders_light">
+          <div class="loader2">
+            <span style="--i: 1"></span>
+            <span style="--i: 2"></span>
+            <span style="--i: 3"></span>
+            <span style="--i: 4"></span>
+            <span style="--i: 5"></span>
+            <span style="--i: 6"></span>
+            <span style="--i: 7"></span>
+            <span style="--i: 8"></span>
+            <span style="--i: 9"></span>
+            <span style="--i: 10"></span>
+            <span style="--i: 11"></span>
+            <span style="--i: 12"></span>
+            <span style="--i: 13"></span>
+            <span style="--i: 14"></span>
+            <span style="--i: 15"></span>
+            <span style="--i: 16"></span>
+            <span style="--i: 17"></span>
+            <span style="--i: 18"></span>
+            <span style="--i: 19"></span>
+            <span style="--i: 20"></span>
+            <span style="--i: 21"></span>
+            <span style="--i: 22"></span>
+            <span style="--i: 23"></span>
+            <span style="--i: 24"></span>
+          </div>
+        </div>
+        <div class="loaders__container loaders_dark">
+          <div class="loader2">
+            <span style="--i: 1"></span>
+            <span style="--i: 2"></span>
+            <span style="--i: 3"></span>
+            <span style="--i: 4"></span>
+            <span style="--i: 5"></span>
+            <span style="--i: 6"></span>
+            <span style="--i: 7"></span>
+            <span style="--i: 8"></span>
+            <span style="--i: 9"></span>
+            <span style="--i: 10"></span>
+            <span style="--i: 11"></span>
+            <span style="--i: 12"></span>
+            <span style="--i: 13"></span>
+            <span style="--i: 14"></span>
+            <span style="--i: 15"></span>
+            <span style="--i: 16"></span>
+            <span style="--i: 17"></span>
+            <span style="--i: 18"></span>
+            <span style="--i: 19"></span>
+            <span style="--i: 20"></span>
+            <span style="--i: 21"></span>
+            <span style="--i: 22"></span>
+            <span style="--i: 23"></span>
+            <span style="--i: 24"></span>
+          </div>
+        </div>
+        <div class="loaders__container loaders_light">
+          <div class="loader3">
+            <span class="loader3__span">loading...</span>
+          </div>
+        </div>
+        <div class="loaders__container loaders_dark">
+          <div class="loader3">
+            <span class="loader3__span">loading...</span>
+          </div>
+        </div>
+        <div class="loaders__container loaders_light">
+          <div class="loader4">
+            <div class="loader4__inner loader4_one"></div>
+            <div class="loader4__inner loader4_two"></div>
+            <div class="loader4__inner loader4_three"></div>
+          </div>
+        </div>
+        <div class="loaders__container loaders_dark">
+          <div class="loader4">
+            <div class="loader4__inner loader4_one"></div>
+            <div class="loader4__inner loader4_two"></div>
+            <div class="loader4__inner loader4_three"></div>
+          </div>
+        </div>
+      </div>
+      <h2 class="page__subtitle">Effects / Эффекты для блоков </h2>
+      <div class="effects">
+        <h2>Индивидуальный вариант для блока</h2>
+        <div class="effects__container">
+          <div class="effect1__box">
+            <span></span>
+            <span></span>
+            <span></span>
+            <div class="effect1__content">
+              <h2 class="effect1__title">Custom container</h2>
+              <p class="effect1__text">Нестандартный блок, который можно использовать для различной информации. Возможно сделать различный дизайн для блоков</p>
+              <a href="#" class="effect1__link">Test link</a>
+            </div>
+          </div>
+        </div>
+        <h2>Анимированный элемент</h2>
+        <div class="effects__container">
+          <div class="flower">
+            <div class="petal one"></div>
+            <div class="petal two"></div>
+            <div class="petal three"></div>
+            <div class="petal four"></div>
+            <div class="center"></div>
+          </div>
+        </div>
+        <h2>Эффект "glitch"</h2>
+        <div class="effects__container">
+          <div class="glitch" id="glitch">
+            <p class="glitch__text" data-text="パンク">
+              <span class="glitch__span glitch__span-top" area-hidden="true">パンク</span>
+              パンク
+              <span class="glitch__span glitch__span-bottom" area-hidden="true">パンク</span>
+            </p>
+            <img
+              class="glitch__image"
+              id="glitch__image"
+              src="./images/IMG_3969.png"
+            />
+          </div>
+        </div>
+
+      </div>
+
+      <h2 class="page__subtitle">Counters / Счетчики</h2>
+      <div class="countdown">
+        <!-- Hours -->
+        <div class="time-section" id="hours">
+          <div class="time-group">
+            <div class="time-segment">
+              <div class="segment-display">
+                <div class="segment-display__top">0</div>
+                <div class="segment-display__bottom">0</div>
+                <div class="segment-overlay">
+                  <div class="segment-overlay__top">0</div>
+                  <div class="segment-overlay__bottom">0</div>
+                </div>
+              </div>
+            </div>
+            <div class="time-segment">
+              <div class="segment-display">
+                <div class="segment-display__top">0</div>
+                <div class="segment-display__bottom">0</div>
+                <div class="segment-overlay">
+                  <div class="segment-overlay__top">0</div>
+                  <div class="segment-overlay__bottom">0</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <p>Часы</p>
+        </div>
+        <!-- Minutes -->
+        <div class="time-section" id="minutes">
+          <div class="time-group">
+            <div class="time-segment">
+              <div class="segment-display">
+                <div class="segment-display__top">0</div>
+                <div class="segment-display__bottom">0</div>
+                <div class="segment-overlay">
+                  <div class="segment-overlay__top">0</div>
+                  <div class="segment-overlay__bottom">0</div>
+                </div>
+              </div>
+            </div>
+            <div class="time-segment">
+              <div class="segment-display">
+                <div class="segment-display__top">0</div>
+                <div class="segment-display__bottom">0</div>
+                <div class="segment-overlay">
+                  <div class="segment-overlay__top">0</div>
+                  <div class="segment-overlay__bottom">0</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <p>Минуты</p>
+        </div>
+        <!-- Second -->
+        <div class="time-section" id="seconds">
+          <div class="time-group">
+            <div class="time-segment">
+              <div class="segment-display">
+                <div class="segment-display__top">0</div>
+                <div class="segment-display__bottom">0</div>
+                <div class="segment-overlay">
+                  <div class="segment-overlay__top">0</div>
+                  <div class="segment-overlay__bottom">0</div>
+                </div>
+              </div>
+            </div>
+            <div class="time-segment">
+              <div class="segment-display">
+                <div class="segment-display__top">0</div>
+                <div class="segment-display__bottom">0</div>
+                <div class="segment-overlay">
+                  <div class="segment-overlay__top">0</div>
+                  <div class="segment-overlay__bottom">0</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <p>Секунды</p>
+        </div>
+      </div>
+    </page>
+  </body>
+  <script src="./index.js" defer></script>
+</html>
