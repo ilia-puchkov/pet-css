@@ -7,7 +7,6 @@
 /* Preloader CSS */
 @import url(./blocks/loaders/loaders.css);
 @import url(./blocks/loader1/loader1.css);
-@import url(./blocks/loader1/__span/loader1__span.css);
 @import url(./blocks/loader2/loader2.css);
 @import url(./blocks/loader3/loader3.css);
 @import url(./blocks/loader4/loader4.css);
@@ -20,21 +19,4 @@
 @import url(./blocks/block-style/block-style.css);
 
 /* Counter CSS */
-@import url(./blocks/counter/countdown/countdown.css);
-@import url(./blocks/counter/flip/flip.css);
-@import url(./blocks/counter/segment-display/segment-display.css);
-@import url(./blocks/counter/segment-display/__bottom/segment-display__bottom.css);
-@import url(./blocks/counter/segment-display/__top/segment-display__top.css);
-@import url(./blocks/counter/segment-overlay/segment-overlay.css);
-@import url(./blocks/counter/segment-overlay/__bottom/segment-overlay__bottom.css);
-@import url(./blocks/counter/segment-overlay/__top/segment-overlay__top.css);
-@import url(./blocks/counter/time-group/time-group.css);
-@import url(./blocks/counter/time-section/time-section.css);
-@import url(./blocks/counter/time-segment/time-segment.css);
-
-/*
-* {
-  box-sizing: border-box;
-}
-*/
-
+@import url(./blocks/counter/countdown.css);
