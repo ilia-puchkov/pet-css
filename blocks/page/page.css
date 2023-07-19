@@ -5,6 +5,21 @@
   justify-content: center;
 }
 
+.page__title {
+  text-align: center;
+  color: #C52B33;
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+
+.page__subtitle {
+  text-align: center;
+  color: #C52B33;
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
 .page__headers {
   font-size: 20px;
   line-height: 47.5px;
