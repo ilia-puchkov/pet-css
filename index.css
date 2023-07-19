@@ -1,4 +1,7 @@
 /* General CSS */
+@import url(./vendor/normalize.css);
+@import url(./vendor/fonts/fonts.css);
+
 @import url(./blocks/body/body.css);
 @import url(./blocks/page/page.css);
 @import url(./blocks/page/__title/page__title.css);
@@ -11,12 +14,14 @@
 @import url(./blocks/loader3/loader3.css);
 @import url(./blocks/loader4/loader4.css);
 @import url(./blocks/loader5/loader5.css);
+@import url(./blocks/effect3/effect3.css);
 
 /* Effects CSS */
 @import url(./blocks/effects/effects.css);
 @import url(./blocks/flowers/flower.css);
 @import url(./blocks/glitch/glitch.css);
 @import url(./blocks/block-style/block-style.css);
+@import url(./blocks/effect2/effect2.css);
 
 /* Counter CSS */
 @import url(./blocks/counter/countdown.css);

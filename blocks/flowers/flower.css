@@ -24,7 +24,7 @@
 .petal {
   width: 100px;
   height: 100px;
-  background: linear-gradient(135deg, #008ECC, #01FFFF);
+  background: linear-gradient(135deg, #c52b33a6, #c52b33);
   border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
 }
 
@@ -60,7 +60,7 @@
   width: 50px;
   height: 50px;
   transform: scale(1);
-  background: radial-gradient(#008ECC, #01FFFF);
+  background: #C52B33;
   border-radius: 50%;
   position: absolute;
   left: calc(50% - 25px);

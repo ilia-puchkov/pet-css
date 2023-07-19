@@ -9,6 +9,66 @@
   <body class="body">
     <page class="page">
       <h1 class="page__title">CSS showreel</h1>
+      <h2 class="page__subtitle">Effects / Эффекты для блоков </h2>
+      <div class="effects">
+        <h2 class="page__headers">Индивидуальный вариант для блока</h2>
+        <div class="effects__container">
+          <div class="effect1__box">
+            <span></span>
+            <span></span>
+            <span></span>
+            <div class="effect1__content">
+              <h2 class="effect1__title">Custom container</h2>
+              <p class="effect1__text">Нестандартный блок, который можно использовать для различной информации. Возможно сделать различный дизайн для блоков</p>
+              <a href="#" class="effect1__link">Test link</a>
+            </div>
+          </div>
+        </div>
+        <h2 class="page__headers">Двойная картинка с эффектом hover</h2>
+        <div class="effects__container">
+          <div class="effect2__container">
+            <div class="effect2__box"></div>
+            <div class="effect2__box"></div>
+          </div>
+        </div>
+        <h2 class="page__headers">Карточка с эффектом</h2>
+        <div class="effects__container">
+          <div class="effect3__container">
+            <img class="effect3__img" src="./images/effect3.jpeg" alt="tokyo">
+            <div class="effect3__body">
+              <h3 class="effect3__title">Токио</h3>
+              <p class="effect3__subtitle">Перекресток Сибуя</p>
+              <p class="effect3__text">Перекрёсток Сибуя — одна из самых узнаваемых достопримечательностей Токио. Он бесчисленное множество раз появлялся в фильмах, магазинах и блогах. В часы пик его могут пересекать от 1000 до 2500 человек за две минуты. Этого достаточно, чтобы заполнить футбольный стадион.</p>
+              <button class="effect3__button"><a class="effect3__link" href="https://visitjapan.ru/spot/2177" target="_blank">Узнать больше</a></button>
+            </div>
+          </div>
+        </div>
+        <h2 class="page__headers">Эффект "glitch"</h2>
+        <div class="effects__container">
+          <div class="glitch" id="glitch">
+            <p class="glitch__text" data-text="パンク">
+              <span class="glitch__span glitch__span-top" area-hidden="true">パンク</span>
+              パンク
+              <span class="glitch__span glitch__span-bottom" area-hidden="true">パンク</span>
+            </p>
+            <img
+              class="glitch__image"
+              id="glitch__image"
+              src="./images/IMG_3969.png"
+            />
+          </div>
+        </div>
+        <h2 class="page__headers">Анимированный элемент</h2>
+        <div class="effects__container">
+          <div class="flower">
+            <div class="petal one"></div>
+            <div class="petal two"></div>
+            <div class="petal three"></div>
+            <div class="petal four"></div>
+            <div class="center"></div>
+          </div>
+        </div>
+      </div>
       <h2 class="page__subtitle">Loaders / Аниманиця загрузки </h2>
       <div class="loaders">
         <div class="loaders__container loaders_light">
@@ -104,49 +164,6 @@
           </div>
         </div>
       </div>
-      <h2 class="page__subtitle">Effects / Эффекты для блоков </h2>
-      <div class="effects">
-        <h2>Индивидуальный вариант для блока</h2>
-        <div class="effects__container">
-          <div class="effect1__box">
-            <span></span>
-            <span></span>
-            <span></span>
-            <div class="effect1__content">
-              <h2 class="effect1__title">Custom container</h2>
-              <p class="effect1__text">Нестандартный блок, который можно использовать для различной информации. Возможно сделать различный дизайн для блоков</p>
-              <a href="#" class="effect1__link">Test link</a>
-            </div>
-          </div>
-        </div>
-        <h2>Анимированный элемент</h2>
-        <div class="effects__container">
-          <div class="flower">
-            <div class="petal one"></div>
-            <div class="petal two"></div>
-            <div class="petal three"></div>
-            <div class="petal four"></div>
-            <div class="center"></div>
-          </div>
-        </div>
-        <h2>Эффект "glitch"</h2>
-        <div class="effects__container">
-          <div class="glitch" id="glitch">
-            <p class="glitch__text" data-text="パンク">
-              <span class="glitch__span glitch__span-top" area-hidden="true">パンク</span>
-              パンク
-              <span class="glitch__span glitch__span-bottom" area-hidden="true">パンク</span>
-            </p>
-            <img
-              class="glitch__image"
-              id="glitch__image"
-              src="./images/IMG_3969.png"
-            />
-          </div>
-        </div>
-
-      </div>
-
       <h2 class="page__subtitle">Counters / Счетчики</h2>
       <div class="countdown">
         <!-- Hours -->
@@ -173,7 +190,7 @@
               </div>
             </div>
           </div>
-          <p>Часы</p>
+          <p class="counter__text">Часы</p>
         </div>
         <!-- Minutes -->
         <div class="time-section" id="minutes">
@@ -199,7 +216,7 @@
               </div>
             </div>
           </div>
-          <p>Минуты</p>
+          <p class="counter__text">Минуты</p>
         </div>
         <!-- Second -->
         <div class="time-section" id="seconds">
@@ -225,7 +242,7 @@
               </div>
             </div>
           </div>
-          <p>Секунды</p>
+          <p class="counter__text">Секунды</p>
         </div>
       </div>
     </page>

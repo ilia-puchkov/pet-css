@@ -20,7 +20,7 @@
 }
 
 .effect1__box:hover span:nth-child(1) {
-  background: rgba(0, 0, 255, 0.8);
+  background: #c52b33b0;
   border: 2px solid #fff;
 }
 
@@ -37,7 +37,7 @@
 }
 
 .effect1__box:hover span:nth-child(2) {
-  background: rgba(173, 216, 230, 0.8);
+  background: #c52b3346;
   border: 2px solid #fff;
 }
 
@@ -54,7 +54,7 @@
 }
 
 .effect1__box:hover span:nth-child(3) {
-  background: rgba(0, 0, 255, 0.8);
+  background: #c52b33b0;
   border: 2px solid #fff;
 }
 

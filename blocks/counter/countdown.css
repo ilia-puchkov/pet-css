@@ -2,6 +2,7 @@
   display: flex;
   gap: 30px;
   font-family: sans-serif;
+  margin-bottom: 20px;
 }
 
 .segment-overlay.flip .segment-overlay__top {
@@ -24,7 +25,7 @@
   height: 50%;
   position: relative;
   background-color: #fff;
-  color: #00CCFF;
+  color: rgba(197, 43, 51, 1);
   line-height: 0;
 }
 
@@ -35,7 +36,7 @@
   height: 50%;
   position: relative;
   background-color: #fff;
-  color: #00CCFF;
+  color: rgba(197, 43, 51, 1);
   line-height: 1.5;
 }
 
@@ -56,7 +57,7 @@
   width: 100%;
   height: 50%;
   background-color: #FFF;
-  color: #00CCFF;
+  color: rgba(197, 43, 51, 1);
   border-top: 1px solid #FFF;
   transform-origin: top;
 }
@@ -65,7 +66,7 @@
   position: absolute;
   top: 0;
   background-color: #FFF;
-  color: #00CCFF;
+  color: rgba(197, 43, 51, 1);
   line-height: 1.5;
   text-align: center;
   width: 100%;
@@ -107,4 +108,10 @@
   100% {
     transform: rotateX(0deg);
   }
+}
+
+.counter__text {
+  color: #C52B33;
+  margin: 0;
+  margin-top: 10px;
 }

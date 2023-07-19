@@ -1,0 +1,80 @@
+.effect3__container {
+  width: 320px;
+  height: 500px;
+  border-radius: 20px;
+  border: 5px solid #00ccff54;
+  position: relative;
+  overflow: hidden;
+}
+
+.effect3__container:hover .effect3__body{
+  right: 0;
+}
+
+.effect3__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.effect3__body {
+  width: calc(100% - 50px);
+  height: calc(100% - 50px);
+  top: 0;
+  right: -100%;
+  position: absolute;
+  background-color: #0000009c;
+  backdrop-filter: blur(5px);
+  color: #fff;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: 1s ease-in-out;
+}
+
+.effect3__title {
+  text-transform: uppercase;
+  font-size: 50px;
+  line-height: 125%;
+  font-weight: 600;
+  margin: 0;
+}
+
+.effect3__subtitle {
+  text-transform: capitalize;
+  font-size: 15px;
+  line-height: 125%;
+  font-weight: 400;
+  margin: 0;
+}
+
+.effect3__text {
+  font-size: 18px;
+  line-height: 110%;
+  font-weight: 400;
+}
+
+.effect3__button {
+  width: 160px;
+  color: #fff;
+  background: #00ccff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-transform: capitalize;
+  border: none;
+  outline: none;
+  font-weight: 500;
+  cursor: pointer;
+  opacity: .8;
+}
+
+.effect3__button:hover {
+  opacity: 1;
+}
+
+.effect3__link {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+}

@@ -1,3 +1,7 @@
 .body {
   padding-top: 50px;
+  background-color: #252525;
+  font-family: 'Jura', Arial, san-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
