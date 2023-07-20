@@ -128,3 +128,13 @@ for (let i = 0; i < glitch.length; i++) {
 }
 }, 600)
 
+const effect4 = document.querySelector('.effect4__container');
+const effect4Video = document.querySelector('.effect4__video');
+
+effect4.addEventListener('mouseover', () => {
+  effect4Video.play();
+});
+
+effect4.addEventListener('mouseleave', () => {
+  effect4Video.pause();
+})
