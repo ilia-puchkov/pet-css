@@ -1,0 +1,70 @@
+.effect5__container {
+  width: 320px;
+  height: 280px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  transition: .5s ease-in-out;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.effect5__container:hover {
+  height: 500px;
+}
+
+.effect5__container:hover > .effect5__title {
+  top: 250px;
+  transition-delay: 250ms;
+}
+
+.effect5__container:hover > .effect5__text {
+  top: 285px;
+  transition-delay: 250ms;
+}
+
+.effect5__container:hover .effect5__image {
+  filter: none;
+}
+
+.effect5__image-box {
+  width: 280px;
+  height: 250px;
+  z-index: 3;
+  border-radius: 5px; 
+}
+
+.effect5__image {
+  width: 280px;
+  height: 250px;
+  position: absolute;
+  top: -10px;
+  left: 20px;
+  z-index: 2;
+  border-radius: 5px;
+  filter: grayscale(80%);
+  transition: .7s ease-in-out;
+}
+
+.effect5__title {
+  position: absolute;
+  top: -10px;
+  left: 20px;
+  transition: .5s ease-in-out;
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.effect5__text {
+  position: absolute;
+  top: -10px;
+  left: 20px;
+  max-width: 280px;
+  transition: .5s ease-in-out;
+  margin: 0;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: left;
+  color: #000;
+}
