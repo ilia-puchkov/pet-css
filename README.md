@@ -1,6 +1,8 @@
+# Набор эффектов CSS
+
 ![logo](./images/readme-image.png)
 
-# Набор эффектов CSS / CSS reel
+Проект на GH-pages: https://ilia-puchkov.github.io/pet-css/
 
 Моя персональная игровая площадка CSS, где я создаю, изменяю и всячески пробую различные визуальные эффекты. 
 **Цель** - создать приятный и увлекательные визуальные элементы для пользователя. 
@@ -10,12 +12,8 @@
 * JS
 * HTML
 
------
+Статус: в процессе (видимо, навечно, т.к. всегда есть что добавить)
 
-My personal CSS playground, where I create, change and try different visual effects.
-**My goal** - create pleasant and interesting visual elements for the user.
-
-Technologies:
-* CSS
-* JS
-* HTML
+Задачи:
+* добавить визуальный эффект к прокрутке страницы
+* создать вариант галереи с приятным эффектом скролла
