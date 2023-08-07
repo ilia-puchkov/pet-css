@@ -2,7 +2,7 @@
 
 ![logo](./images/readme-image.png)
 
-Проект на GH-pages: https://ilia-puchkov.github.io/pet-css/
+## Проект на GitPages: [here](https://ilia-puchkov.github.io/pet-css/)
 
 Моя персональная игровая площадка CSS, где я создаю, изменяю и всячески пробую различные визуальные эффекты. 
 **Цель** - создать приятный и увлекательные визуальные элементы для пользователя. 
